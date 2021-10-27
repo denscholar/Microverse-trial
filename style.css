@@ -1,47 +1,60 @@
-*{
-    font-family: Verdana, Geneva, Tahoma, sans-serif
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
 }
 
-h1,h2 {
-    text-align: center;
-
-}
-.container{
-    width: 600px;
-    /* height: 1000px; */
-    background-color: #4B0082;
-    color: bisque;
-    margin: auto;
-    padding: 30px;
-    font-size: 18px;
-    border-radius: 10px;
-    text-align:left;
+.background {
+  background-image: url("/asset/bg-image.jpg");
+  background-color: black;
+  background-attachment: fixed;
+  
 }
 
-label {
-    margin: 10px 0 5px 0;
+h1,
+h2 {
+  text-align: center;
+  /* margin: 10px; */
+  padding: 10px;
+}
+.container {
+  width: 600px;
+  /* height: 1000px; */
+  background-color: #4b0082;
+  color: bisque;
+  margin: auto;
+  padding: 30px;
+  font-size: 18px;
+  border-radius: 10px;
+  text-align: left;
 }
 
-input[type=text], input[type=email], input[type=date], select {
-    width: 90%;
-    border-radius: 5px;
-    height: 30px;
-    margin: 5px 0 20px 0;
+input[type="text"],
+input[type="email"],
+input[type="date"],
+select {
+  width: 90%;
+  border-radius: 5px;
+  height: 30px;
+  margin: 5px 0 20px 0;
+
 }
 
-input[type=checkbox], select>option {
-    margin-bottom: 8px;
+input[type="checkbox"], input[type="radio"]  {
+  margin-bottom: 10px;
 }
 
+.label{
+    margin-bottom: 50px;
+}
 textarea {
-    width: 90%;
-    border-radius: 5px;
+  width: 90%;
+  border-radius: 5px;
 }
 
 button {
-    width: 90%;
-    height: 40px;
-    border-color: #37AF65;
-    background-color: #37AF65;
-    color: white
+  width: 90%;
+  height: 40px;
+  border-color: #37af65;
+  background-color: #37af65;
+  color: white;
 }
